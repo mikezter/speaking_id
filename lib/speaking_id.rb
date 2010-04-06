@@ -1,5 +1,4 @@
-require File.dirname(__FILE__) + '/speaking_id/speaking_id'
+require 'speaking_id/ascii_approximations'
+require 'speaking_id/core_extensions'
+require 'speaking_id/speaking_id'
 
-if defined?(ActiveRecord)
-  ActiveRecord::Base.instance_eval {extend SpeakingId::ClassMethods}
-end

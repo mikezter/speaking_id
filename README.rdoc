@@ -1,10 +1,22 @@
 = SpeakingId
 
-Creates simple and secure slugs from a given string or random slugs to hide a model ID.
+Lightweight Ruby on Rails gem to handle slugs for Active Record objects.
 
 == Installation
 
-You can set it up as a gem in your environment.rb file.
+=== Rails 3
+
+Add the gem to your project's Gemfile as follows:
+
+  gem 'speaking_id'
+
+Then install the gem by running:
+
+  bundle install
+
+=== Rails 2
+
+In Rails 2 you can set it up in your environment.rb file.
 
   config.gem "speaking_id"
 

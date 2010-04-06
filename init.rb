@@ -1,1 +1,0 @@
-require 'speaking_id'
