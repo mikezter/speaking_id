@@ -13,6 +13,10 @@ Add the gem to your project's Gemfile as follows:
 Then install the gem by running:
 
   bundle install
+  
+Alternatively you can install it as a Rails plugin.
+
+  rails plugin install git://github.com/venlix/speaking_id.git
 
 === Rails 2
 
@@ -23,8 +27,8 @@ In Rails 2 you can set it up in your environment.rb file.
 And then install the gem.
 
   sudo rake gems:install
-
-Alternatively you can install it as a Rails plugin.
+  
+Or as a Rails plugin.
 
   script/plugin install git://github.com/venlix/speaking_id.git
 
@@ -62,3 +66,5 @@ By default, SpeakingId uses a column called "slug". If you want to use a differe
   has_slug :title, :column => :column_name
 
 This works also with the +has_random_slug+ method.
+
+The gem also adds an instance method to the String class called +normalize+. The method replaces known special characters and removes unknown characters in a string.
