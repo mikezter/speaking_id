@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
   s.name = "speaking_id"
-  s.version = "0.2.0"
-  s.date = "2010-04-06"
+  s.version = "0.2.1"
+  s.date = "2010-04-15"
 
-  s.summary = "Lightweight Ruby on Rails gem to handle slugs for Active Record objects."
-  s.description = "Creates simple and secure slugs from a given string or random slugs."
+  s.description = "Lightweight Ruby on Rails gem to handle slugs for Active Record objects."
+  s.summary = "Creates simple and secure slugs from a given string or random slugs."
   s.homepage = "http://github.com/venlix/speaking_id"
 
-  s.authors = ["Martin Jagusch"]
+  s.authors = "Martin Jagusch"
   s.email = "m@venlix.net"
 
   s.require_paths = ["lib"]
@@ -19,5 +19,7 @@ Gem::Specification.new do |s|
 
   s.rubygems_version = "1.3.5"
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2")
+  
+  s.add_dependency("activerecord", ">= 2.0.0")
+  s.add_dependency("activesupport", ">= 2.0.0")
 end
-
