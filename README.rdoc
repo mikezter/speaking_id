@@ -16,7 +16,7 @@ Then install the gem by running:
   
 Alternatively you can install it as a Rails plugin.
 
-  rails plugin install git://github.com/venlix/speaking_id.git
+  rails plugin install git://github.com/martinjagusch/speaking_id.git
 
 === Rails 2
 
@@ -30,7 +30,7 @@ And then install the gem.
   
 Or as a Rails plugin.
 
-  script/plugin install git://github.com/venlix/speaking_id.git
+  script/plugin install git://github.com/martinjagusch/speaking_id.git
 
 == Instructions
 
