@@ -2,7 +2,7 @@ String.class_eval do
   # Replaces known special characters and removes unknown characters in a string
   # so that it may be used as part of a 'pretty' URL.
   def normalize(sep = '-')
-    return if self.blank?
+    return '' if self.blank?
 
     s = SpeakingId::replace_known_special_chars(self)
 
